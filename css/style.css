@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-.pagination {
+ .pagination {
     display: flex;
     padding-left: 0;
     list-style: none;
@@ -378,6 +378,7 @@ figure {
 img {
     vertical-align: middle;
     border-style: none;
+    padding-bottom: 1em;
 }
 
 svg:not(:root) {
@@ -667,7 +668,7 @@ mark,
 .img-fluid {
     max-width: 100%;
     height: auto;
-    padding-bottom: 15px;
+    padding-bottom: 1em;
 }
 
 .img-thumbnail {
@@ -6165,11 +6166,11 @@ button.close {
     border-top: 1px solid #e9ecef;
 }
 
-.modal-footer> :not(:first-child) {
+.modal-footer>:not(:first-child) {
     margin-left: .25rem;
 }
 
-.modal-footer> :not(:last-child) {
+.modal-footer>:not(:last-child) {
     margin-right: .25rem;
 }
 
